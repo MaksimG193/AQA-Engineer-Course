@@ -1,4 +1,4 @@
-public static void compareNumbers() {
+public static void main() {
     int a= 16; int b= 15;
     if (a>=b){
         System.out.println( "a>= b");

@@ -1,4 +1,4 @@
-public static void checkSumSigh () {
+public static void main() {
         int a= 3 ,b= 2;
         int c = a + b;
         if (c >= 0) {

@@ -1,4 +1,4 @@
-public static void printColor () {
+public static void main() {
     int value = -1;
     if (value <=0){
         System.out.println("Красный");

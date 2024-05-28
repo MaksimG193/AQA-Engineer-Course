@@ -4,3 +4,6 @@ public static void main(int len, int initialValue) {
             arr[i] = initialValue;
         }
     }
+
+public void main() {
+}
