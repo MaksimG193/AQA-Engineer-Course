@@ -1,3 +1,4 @@
+//Task 2
 public static void checkSumSigh () {
         int a= 3 ,b= 2;
         int c = a + b;
@@ -6,6 +7,10 @@ public static void checkSumSigh () {
         } else {
             System.out.println("Сумма отрицательная");
         }
+}
+
+public void main() {
+    checkSumSigh();
 }
 
 
