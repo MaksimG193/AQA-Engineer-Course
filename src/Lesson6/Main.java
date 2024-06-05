@@ -1,3 +1,5 @@
+package Lesson6;
+
 public class Main {
 
     public static void main(String [] args){
@@ -14,6 +16,11 @@ public class Main {
         employeesArr[4] = new Employee("Бондаренко Михаил Эдуардович", "Разнорабочий",
                 "Bond007@yandex.ru", "89117654321", 40000, 47);
 
+        Park ParkSpb = new Park();
+        ParkSpb.addAttractions("Karusel", "10:00-20:00",250);
+        ParkSpb.allAttractions();
+
     }
+
 }
 

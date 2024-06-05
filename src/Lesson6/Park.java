@@ -1,3 +1,5 @@
+package Lesson6;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,8 +10,8 @@ public class Park {
         attractions = new ArrayList<>();
     }
 
-    public void addAttractions(String attractionName, String hoursWorking , int cost) {
-        attractions.add(new Attraction(attractionName, hoursWorking , cost));
+    public void addAttractions(String attractionName, String hoursWorking, int cost) {
+        attractions.add(new Attraction(attractionName, hoursWorking, cost));
     }
 
     public void allAttractions() {
@@ -29,8 +31,6 @@ public class Park {
             this.cost = cost;
 
 
-
-
-
         }
     }
+}

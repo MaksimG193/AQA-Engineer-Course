@@ -1,3 +1,5 @@
+package Lesson6;
+
 public class Employee {
     private String fio;
     private String post;
