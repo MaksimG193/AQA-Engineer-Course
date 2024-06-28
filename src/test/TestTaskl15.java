@@ -41,6 +41,8 @@ public class TestTaskl15 {
 
         WebElement continueButton = driver.findElement(By.xpath("//button[@class = 'button button__default ']"));
         continueButton.click();
+
+        driver.quit();
     }
 
     }
