@@ -19,6 +19,10 @@ public class TestTaskl15 {
         WebDriver driver = new ChromeDriver();
         driver.get("http://mts.by");
 
+
+        WebElement cookieClick = driver.findElement(By.xpath("//button[@class = 'btn btn_black cookie__ok']"));
+        cookieClick.click();
+
         //1. Проверить название указанного блока
         WebElement blockName = driver.findElement(By.xpath("//section[@class = 'pay']//h2"));
         assertEquals("Онлайн пополнение" + "\n" + "без комиссии", blockName.getText());
@@ -32,11 +36,12 @@ public class TestTaskl15 {
             );
         }
         //3. Проверить работу ссылки «Подробнее о сервисе»
-        WebElement clickServiceInfo = driver.findElement(By.xpath("//a[@href = '/help/poryadok-oplaty-i-bezopasnost-internet-platezhey/']"));
-        Assert.assertEquals("Подробнее о сервисе" , clickServiceInfo.click());
+        WebElement clickServiceInfo =  driver.findElement((By.linkText("Подробнее о сервисе")));
+        clickServiceInfo.click();
 
         //Заполнить поля и проверить работу кнопки «Продолжить» (проверяем только вариант «Услуги связи», номер для теста 297777777)
-        WebElement phoneNumberField = driver.findElement(By.id("phone_number"));
+        driver.navigate().back();
+        WebElement phoneNumberField = driver.findElement(By.xpath("//input[@class = 'phone']"));
         phoneNumberField.sendKeys("297777777");
 
         WebElement continueButton = driver.findElement(By.xpath("//button[@class = 'button button__default ']"));
