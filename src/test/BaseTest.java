@@ -1,13 +1,14 @@
 package test;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-abstract public class BaseTestTaskl16 {
+
+abstract public class BaseTest {
 
      protected WebDriver driver;
      protected static final String BASE_URL = "https://www.mts.by";

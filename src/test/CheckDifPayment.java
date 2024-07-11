@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class TestTaskl16p1 extends BaseTestTaskl16 {
+public class CheckDifPayment extends BaseTest {
 
     private List<WebElement> openDropdownList(){
 

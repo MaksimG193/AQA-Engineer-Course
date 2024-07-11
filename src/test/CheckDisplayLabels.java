@@ -13,7 +13,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-public class TestTaskl16p2 extends BaseTestTaskl16 {
+public class CheckDisplayLabels extends BaseTest {
 
     private void switchToPayment(){
 
@@ -33,7 +33,7 @@ public class TestTaskl16p2 extends BaseTestTaskl16 {
     public void checkSumCorrect(){
 
         switchToPayment();
-        WebElement depositAmount = driver.findElement(By.xpath("//span[text() = '2.00 BYN']"));
+        WebElement depositAmount = driver.findElement(By.xpath("//input[contains(@class,'total_rub')]"));
         WebElement buttonDepositAmount = driver.findElement(By.xpath(BUTTON_DEPOSIT_XPATH));
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.visibilityOf(buttonDepositAmount));
@@ -48,7 +48,7 @@ public class TestTaskl16p2 extends BaseTestTaskl16 {
     public void checkPhoneNumberCorrect() {
 
         switchToPayment();
-        WebElement paymentInfo = driver.findElement(By.xpath("//div[@class='pay-description__text']/span"));
+        WebElement paymentInfo = driver.findElement(By.xpath("//input[contains(@class,'phone')]"));
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.visibilityOf(paymentInfo));
         String expected = "Оплата: Услуги связи Номер:375297777777";
@@ -60,10 +60,10 @@ public class TestTaskl16p2 extends BaseTestTaskl16 {
     public void checkTextIBlankCard() {
 
         switchToPayment();
-        WebElement cardNumberField = driver.findElement(By.xpath("//label[text()='Номер карты']"));
-        WebElement durationPeriodField = driver.findElement(By.xpath("//label[text()='Срок действия']"));
-        WebElement holderNameField = driver.findElement(By.xpath("//label[text()='Имя держателя (как на карте)']"));
-        WebElement CVCField = driver.findElement(By.xpath("//label[text()='CVC']"));
+        WebElement cardNumberField = driver.findElement(By.xpath("//input[contains(@id,'cc-number')]"));
+        WebElement durationPeriodField = driver.findElement(By.xpath("//input[contains(@placeholder,'MM / YY')]"));
+        WebElement holderNameField = driver.findElement(By.xpath("//div[contains(@class,'ng-tns-c46-3 ng-star-inserted')]"));
+        WebElement CVCField = driver.findElement(By.xpath("//div[contains(@class,'ng-tns-c46-3 ng-star-inserted')]"));
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.visibilityOf(cardNumberField));
 
@@ -84,11 +84,11 @@ public class TestTaskl16p2 extends BaseTestTaskl16 {
     public void checkPaymentSystemIcon() {
 
         switchToPayment();
-        WebElement header = driver.findElement(By.xpath("//div[@class='header__container']"));
+        WebElement header = driver.findElement(By.xpath("//div[contais(@class,'header__container')]"));
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.visibilityOf(header));
 
-        List<WebElement> logoElements = driver.findElements(By.xpath("//div[@class='icons-container ng-tns-c46-1']"));
+        List<WebElement> logoElements = driver.findElements(By.xpath("//div[contains(@class,'icons-container ng-tns-c46-1')]"));
         for (WebElement logo : logoElements) {
             assertTrue(logo.isDisplayed());
         }
