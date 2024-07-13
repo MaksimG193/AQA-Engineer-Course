@@ -1,0 +1,311 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"44270da2-8f5a-4caa-88ec-ea43c4ef86ca\" name=\"Changes\" comment=\"TASKL6.2\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Task2\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;MaksimG193&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/MaksimG193/AQA-Engineer-Course&quot;,\r\n    &quot;accountId&quot;: &quot;0d18cbbe-49b1-4bb7-b594-6cc47c50434e&quot;\r\n  }\r\n}</component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/Java/Task14.java\" root0=\"SKIP_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2gmlYIgFWcBcUjgp4mXSNX9azZ2\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;Application.Java.Task8.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.Main.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.PhoneBook.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TASKL11.Main.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.Task10.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.Task11.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.Task12.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.Task13.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.Task14.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.Task5.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.Task8.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.Task9.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TaskL12.Main.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TaskL13.Main.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TestMts.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TestTaskl15.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.compareNumbers.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.printColor.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.printThreeWords.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.testTaskl15.executor&quot;: &quot;Run&quot;,\r\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\r\n    &quot;JUnit.FactorialJunitTest.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.FactorialJunitTest.negativeTest.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.FactorialJunitTest.positiveTest.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.TestTaskl15.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.TestTaskl15.main.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.TestTaskl16p1.checkTextCommunicationServices.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.TestTaskl16p1.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.TestTaskl16p2.checkPhoneNumberCorrect.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.TestTaskl16p2.checkSumCorrect.executor&quot;: &quot;Run&quot;,\r\n    &quot;JUnit.TestTaskl16p2.executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.AQA-Engineer-Course [clean].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.AQA-Engineer-Course [io.qameta.allure:allure-maven:2.10.0:install].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.AQA-Engineer-Course [io.qameta.allure:allure-maven:2.10.0:report].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.AQA-Engineer-Course [io.qameta.allure:allure-maven:2.9:report].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.AQA-Engineer-Course [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.AQA-Engineer-Course [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.AQA-Engineer-Course [org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.AQA-Engineer-Course [org.apache.maven.plugins:maven-surefire-plugin:3.3.0:test].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.AQA-Engineer-Course [test].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.AQA-Engineer-Course [verify].executor&quot;: &quot;Run&quot;,\r\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;TestNG.FactorialTestNG.executor&quot;: &quot;Run&quot;,\r\n    &quot;TestNG.FactorialTestNG.negativeTest.executor&quot;: &quot;Run&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;TaskL6&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/GASSSY/AQA-Engineer-Course/src/main/java/org/example/Main.java&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [\r\n      &quot;JAVA&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\GASSSY\\AQA-Engineer-Course\\Java\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.FactorialJunitTest\">\r\n    <configuration name=\"PhoneBook\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"TaskL13.PhoneBook\" />\r\n      <module name=\"AQA-Engineer-Course\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"TaskL13.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TaskL13.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"TaskL13.Main\" />\r\n      <module name=\"AQA-Engineer-Course\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"TaskL13.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"FactorialJunitTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"AQA-Engineer-Course\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"FactorialJunitTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"FactorialJunitTest.negativeTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"AQA-Engineer-Course\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"FactorialJunitTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"negativeTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"FactorialJunitTest.positiveTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"AQA-Engineer-Course\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"FactorialJunitTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"positiveTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Application.PhoneBook\" />\r\n      <item itemvalue=\"Application.TaskL13.Main\" />\r\n      <item itemvalue=\"JUnit.FactorialJunitTest\" />\r\n      <item itemvalue=\"JUnit.FactorialJunitTest.negativeTest\" />\r\n      <item itemvalue=\"JUnit.FactorialJunitTest.positiveTest\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.FactorialJunitTest.positiveTest\" />\r\n        <item itemvalue=\"JUnit.FactorialJunitTest.negativeTest\" />\r\n        <item itemvalue=\"JUnit.FactorialJunitTest\" />\r\n        <item itemvalue=\"Application.TaskL13.Main\" />\r\n        <item itemvalue=\"Application.PhoneBook\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"44270da2-8f5a-4caa-88ec-ea43c4ef86ca\" name=\"Changes\" comment=\"\" />\r\n      <created>1716310680007</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1716310680007</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Task2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1716311019983</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1716311019983</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Task2 corrected\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1716989054844</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1716989054844</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Task2 corrected\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1716989234402</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1716989234402</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Task2 corrected 1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1716989374431</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1716989374431</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Task6 corrected 1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1717237213369</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1717237213370</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Lesson6 corrected\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1717593788939</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1717593788939</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"TaskL11\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718382329989</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718382329989</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"TaskL11.1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718382952091</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718382952091</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"TaskL11.1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718382997501</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718382997501</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"TaskL11.1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718383013598</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718383013598</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"TaskL12\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718725965060</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718725965060</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"TaskL12\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718726063294</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718726063294</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Merge remote-tracking branch 'origin/TASKL12' into TASKL12\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718905349695</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718905349695</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"TASKL!$\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719060940951</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719060940951</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"TASKL14\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719062406515</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719062406515</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"TASKL14.1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719133044599</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719133044599</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"TASKL15\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719607158244</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719607158244</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"TASKL15.1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719607403210</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719607403210</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"TASKL15.1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719607445294</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719607445294</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"TASKL15.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719662613661</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719662613661</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"TASKL16\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1720007307638</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1720007307638</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"TASKL17\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1720178168798</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1720178168798</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"TASKL15.1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1720366490100</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1720366490100</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"TASKL16.2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1720540623157</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1720540623157</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00025\" summary=\"TASKL2.2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1720874584382</created>\r\n      <option name=\"number\" value=\"00025\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1720874584382</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00026\" summary=\"TASKL6.2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1720874918449</created>\r\n      <option name=\"number\" value=\"00026\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1720874918449</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"27\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Task2\" />\r\n    <MESSAGE value=\"Task2 corrected\" />\r\n    <MESSAGE value=\"Task2 corrected 1\" />\r\n    <MESSAGE value=\"Task6 corrected 1\" />\r\n    <MESSAGE value=\"Lesson6 corrected\" />\r\n    <MESSAGE value=\"TaskL11\" />\r\n    <MESSAGE value=\"TaskLesson11\" />\r\n    <MESSAGE value=\"TaskL11.1\" />\r\n    <MESSAGE value=\"TaskL12.2\" />\r\n    <MESSAGE value=\"TaskL12\" />\r\n    <MESSAGE value=\"TaskL13\" />\r\n    <MESSAGE value=\"Merge remote-tracking branch 'origin/TASKL12' into TASKL12\" />\r\n    <MESSAGE value=\"TASKL!$\" />\r\n    <MESSAGE value=\"TASKL14\" />\r\n    <MESSAGE value=\"TASKL14.1\" />\r\n    <MESSAGE value=\"TASKL15\" />\r\n    <MESSAGE value=\"TASKL15.\" />\r\n    <MESSAGE value=\"TASKL16\" />\r\n    <MESSAGE value=\"TASKL17\" />\r\n    <MESSAGE value=\"TASKL15.1\" />\r\n    <MESSAGE value=\"TASKL16.2\" />\r\n    <MESSAGE value=\"TASKL2.2\" />\r\n    <MESSAGE value=\"TASKL6.2\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"TASKL6.2\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,7 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="44270da2-8f5a-4caa-88ec-ea43c4ef86ca" name="Changes" comment="TASKL6.2" />
++    <list default="true" id="44270da2-8f5a-4caa-88ec-ea43c4ef86ca" name="Changes" comment="TASKFactorialTestNG" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -21,7 +21,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="Task2" />
++        <entry key="$PROJECT_DIR$" value="Lesson_12_junit_5" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -50,103 +50,77 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;Application.Java.Task8.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.PhoneBook.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.TASKL11.Main.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.Task10.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.Task11.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.Task12.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.Task13.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.Task14.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.Task5.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.Task8.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.Task9.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.TaskL12.Main.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.TaskL13.Main.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.TestMts.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.TestTaskl15.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.compareNumbers.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.printColor.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.printThreeWords.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.testTaskl15.executor&quot;: &quot;Run&quot;,
+-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+-    &quot;JUnit.FactorialJunitTest.executor&quot;: &quot;Run&quot;,
+-    &quot;JUnit.FactorialJunitTest.negativeTest.executor&quot;: &quot;Run&quot;,
+-    &quot;JUnit.FactorialJunitTest.positiveTest.executor&quot;: &quot;Run&quot;,
+-    &quot;JUnit.TestTaskl15.executor&quot;: &quot;Run&quot;,
+-    &quot;JUnit.TestTaskl15.main.executor&quot;: &quot;Run&quot;,
+-    &quot;JUnit.TestTaskl16p1.checkTextCommunicationServices.executor&quot;: &quot;Run&quot;,
+-    &quot;JUnit.TestTaskl16p1.executor&quot;: &quot;Run&quot;,
+-    &quot;JUnit.TestTaskl16p2.checkPhoneNumberCorrect.executor&quot;: &quot;Run&quot;,
+-    &quot;JUnit.TestTaskl16p2.checkSumCorrect.executor&quot;: &quot;Run&quot;,
+-    &quot;JUnit.TestTaskl16p2.executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.AQA-Engineer-Course [clean].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.AQA-Engineer-Course [io.qameta.allure:allure-maven:2.10.0:install].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.AQA-Engineer-Course [io.qameta.allure:allure-maven:2.10.0:report].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.AQA-Engineer-Course [io.qameta.allure:allure-maven:2.9:report].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.AQA-Engineer-Course [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.AQA-Engineer-Course [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.AQA-Engineer-Course [org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.AQA-Engineer-Course [org.apache.maven.plugins:maven-surefire-plugin:3.3.0:test].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.AQA-Engineer-Course [test].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.AQA-Engineer-Course [verify].executor&quot;: &quot;Run&quot;,
+-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;TestNG.FactorialTestNG.executor&quot;: &quot;Run&quot;,
+-    &quot;TestNG.FactorialTestNG.negativeTest.executor&quot;: &quot;Run&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;TaskL6&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/GASSSY/AQA-Engineer-Course/src/main/java/org/example/Main.java&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "Application.Java.Task8.executor": "Run",
++    "Application.Main (1).executor": "Run",
++    "Application.Main.executor": "Run",
++    "Application.PhoneBook.executor": "Run",
++    "Application.TASKL11.Main.executor": "Run",
++    "Application.Task10.executor": "Run",
++    "Application.Task11.executor": "Run",
++    "Application.Task12.executor": "Run",
++    "Application.Task13.executor": "Run",
++    "Application.Task14.executor": "Run",
++    "Application.Task5.executor": "Run",
++    "Application.Task8.executor": "Run",
++    "Application.Task9.executor": "Run",
++    "Application.TaskL12.Main.executor": "Run",
++    "Application.TaskL13.Main.executor": "Run",
++    "Application.TestMts.executor": "Run",
++    "Application.TestTaskl15.executor": "Run",
++    "Application.compareNumbers.executor": "Run",
++    "Application.printColor.executor": "Run",
++    "Application.printThreeWords.executor": "Run",
++    "Application.testTaskl15.executor": "Run",
++    "Downloaded.Files.Path.Enabled": "false",
++    "JUnit.FactorialJunitTest.executor": "Run",
++    "JUnit.FactorialJunitTest.negativeTest.executor": "Run",
++    "JUnit.FactorialJunitTest.positiveTest.executor": "Run",
++    "JUnit.TestTaskl15.executor": "Run",
++    "JUnit.TestTaskl15.main.executor": "Run",
++    "JUnit.TestTaskl16p1.checkTextCommunicationServices.executor": "Run",
++    "JUnit.TestTaskl16p1.executor": "Run",
++    "JUnit.TestTaskl16p2.checkPhoneNumberCorrect.executor": "Run",
++    "JUnit.TestTaskl16p2.checkSumCorrect.executor": "Run",
++    "JUnit.TestTaskl16p2.executor": "Run",
++    "Maven.AQA-Engineer-Course [clean].executor": "Run",
++    "Maven.AQA-Engineer-Course [io.qameta.allure:allure-maven:2.10.0:install].executor": "Run",
++    "Maven.AQA-Engineer-Course [io.qameta.allure:allure-maven:2.10.0:report].executor": "Run",
++    "Maven.AQA-Engineer-Course [io.qameta.allure:allure-maven:2.9:report].executor": "Run",
++    "Maven.AQA-Engineer-Course [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
++    "Maven.AQA-Engineer-Course [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile].executor": "Run",
++    "Maven.AQA-Engineer-Course [org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources].executor": "Run",
++    "Maven.AQA-Engineer-Course [org.apache.maven.plugins:maven-surefire-plugin:3.3.0:test].executor": "Run",
++    "Maven.AQA-Engineer-Course [test].executor": "Run",
++    "Maven.AQA-Engineer-Course [verify].executor": "Run",
++    "Repository.Attach.Annotations": "false",
++    "Repository.Attach.JavaDocs": "false",
++    "Repository.Attach.Sources": "false",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "TestNG.FactorialTestNG.executor": "Run",
++    "TestNG.FactorialTestNG.negativeTest.executor": "Run",
++    "git-widget-placeholder": "Lesson__12__Testng",
++    "kotlin-language-version-configured": "true",
++    "onboarding.tips.debug.path": "C:/Users/GASSSY/AQA-Engineer-Course/src/main/java/org/example/Main.java",
++    "project.structure.last.edited": "Project",
++    "project.structure.proportion": "0.15",
++    "project.structure.side.proportion": "0.2",
++    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+   },
+-  &quot;keyToStringList&quot;: {
+-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+-      &quot;JAVA&quot;
++  "keyToStringList": {
++    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
++      "JAVA"
+     ]
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Users\GASSSY\AQA-Engineer-Course\Java" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="JUnit.FactorialJunitTest">
+-    <configuration name="PhoneBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="TaskL13.PhoneBook" />
+-      <module name="AQA-Engineer-Course" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="TaskL13.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="TaskL13.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="TaskL13.Main" />
+-      <module name="AQA-Engineer-Course" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="TaskL13.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
++  <component name="RunManager" selected="TestNG.FactorialTestNG.negativeTest">
+     <configuration name="FactorialJunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="AQA-Engineer-Course" />
+       <option name="PACKAGE_NAME" value="" />
+@@ -176,20 +150,43 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <configuration name="FactorialTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="AQA-Engineer-Course" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="FactorialTestNG" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="FactorialTestNG.negativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="AQA-Engineer-Course" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="FactorialTestNG" />
++      <option name="METHOD_NAME" value="negativeTest" />
++      <option name="TEST_OBJECT" value="METHOD" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <list>
+-      <item itemvalue="Application.PhoneBook" />
+-      <item itemvalue="Application.TaskL13.Main" />
+       <item itemvalue="JUnit.FactorialJunitTest" />
+       <item itemvalue="JUnit.FactorialJunitTest.negativeTest" />
+       <item itemvalue="JUnit.FactorialJunitTest.positiveTest" />
++      <item itemvalue="TestNG.FactorialTestNG" />
++      <item itemvalue="TestNG.FactorialTestNG.negativeTest" />
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="TestNG.FactorialTestNG.negativeTest" />
++        <item itemvalue="TestNG.FactorialTestNG" />
+         <item itemvalue="JUnit.FactorialJunitTest.positiveTest" />
+         <item itemvalue="JUnit.FactorialJunitTest.negativeTest" />
+         <item itemvalue="JUnit.FactorialJunitTest" />
+-        <item itemvalue="Application.TaskL13.Main" />
+-        <item itemvalue="Application.PhoneBook" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -410,7 +407,31 @@
+       <option name="project" value="LOCAL" />
+       <updated>1720874918449</updated>
+     </task>
+-    <option name="localTasksCounter" value="27" />
++    <task id="LOCAL-00027" summary="TASKFactorial">
++      <option name="closed" value="true" />
++      <created>1720884105058</created>
++      <option name="number" value="00027" />
++      <option name="presentableId" value="LOCAL-00027" />
++      <option name="project" value="LOCAL" />
++      <updated>1720884105058</updated>
++    </task>
++    <task id="LOCAL-00028" summary="TASKFactorialTestNG">
++      <option name="closed" value="true" />
++      <created>1720884226296</created>
++      <option name="number" value="00028" />
++      <option name="presentableId" value="LOCAL-00028" />
++      <option name="project" value="LOCAL" />
++      <updated>1720884226296</updated>
++    </task>
++    <task id="LOCAL-00029" summary="TASKFactorialTestNG">
++      <option name="closed" value="true" />
++      <created>1720884240075</created>
++      <option name="number" value="00029" />
++      <option name="presentableId" value="LOCAL-00029" />
++      <option name="project" value="LOCAL" />
++      <updated>1720884240075</updated>
++    </task>
++    <option name="localTasksCounter" value="30" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -448,6 +469,34 @@
+     <MESSAGE value="TASKL16.2" />
+     <MESSAGE value="TASKL2.2" />
+     <MESSAGE value="TASKL6.2" />
+-    <option name="LAST_COMMIT_MESSAGE" value="TASKL6.2" />
++    <MESSAGE value="TASKFactorial" />
++    <MESSAGE value="TASKFactorialTestNG" />
++    <option name="LAST_COMMIT_MESSAGE" value="TASKFactorialTestNG" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
++          <line>13</line>
++          <option name="timeStamp" value="1" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/TASKL11/Dog.java</url>
++          <line>17</line>
++          <option name="timeStamp" value="2" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/TaskL12/ArrayItself.java</url>
++          <line>11</line>
++          <option name="timeStamp" value="3" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/TaskL13/Main.java</url>
++          <line>4</line>
++          <option name="timeStamp" value="5" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
+   </component>
+ </project>
+\ No newline at end of file

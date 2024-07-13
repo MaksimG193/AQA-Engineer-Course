@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RunManager" selected="JUnit.TestTaskl15">
+    <configuration name="TestMts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestMts.TestMts" />
+      <module name="AQA-Engineer-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestMts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTaskl15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestTaskl15" />
+      <module name="AQA-Engineer-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testTaskl15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testTaskl15" />
+      <module name="AQA-Engineer-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTaskl15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AQA-Engineer-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestTaskl15" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTaskl15.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AQA-Engineer-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestTaskl15" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TestMts" />
+      <item itemvalue="Application.TestTaskl15" />
+      <item itemvalue="Application.testTaskl15" />
+      <item itemvalue="JUnit.TestTaskl15" />
+      <item itemvalue="JUnit.TestTaskl15.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestTaskl15" />
+        <item itemvalue="JUnit.TestTaskl15.main" />
+        <item itemvalue="Application.testTaskl15" />
+        <item itemvalue="Application.TestTaskl15" />
+        <item itemvalue="Application.TestMts" />
+      </list>
+    </recent_temporary>
+  </component>
+</project>
