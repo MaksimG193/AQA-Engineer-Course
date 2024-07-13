@@ -1,0 +1,188 @@
+Index: src/test/TestTaskl16p2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package test;\r\n\r\nimport org.junit.jupiter.api.DisplayName;\r\nimport org.junit.jupiter.api.Test;\r\nimport org.openqa.selenium.By;\r\nimport org.openqa.selenium.WebElement;\r\nimport org.openqa.selenium.support.ui.ExpectedConditions;\r\nimport org.openqa.selenium.support.ui.WebDriverWait;\r\n\r\nimport java.time.Duration;\r\nimport java.util.List;\r\n\r\nimport static org.junit.jupiter.api.Assertions.assertAll;\r\nimport static org.testng.Assert.assertEquals;\r\nimport static org.testng.AssertJUnit.assertTrue;\r\n\r\npublic class TestTaskl16p2 extends BaseTestTaskl16 {\r\n\r\n    private void switchToPayment(){\r\n\r\n        WebElement phone = driver.findElement(By.xpath(PHONE_NUMBER_FIELD));\r\n        phone.click();\r\n        phone.sendKeys(PHONE_NUMBER);\r\n        WebElement sum = driver.findElement(By.xpath(SUM_NUMBER_FIELD));\r\n        sum.click();\r\n        sum.sendKeys(\"3\");\r\n        sum.submit();\r\n        WebElement iframe = driver.findElement(By.xpath(IFRAME_PAYMENT));\r\n        driver.switchTo().frame(iframe);\r\n    }\r\n\r\n    @Test\r\n    @DisplayName(\"Проверить корректность отображения суммы в окне (в том числе на кнопке)\")\r\n    public void checkSumCorrect(){\r\n\r\n        switchToPayment();\r\n        WebElement depositAmount = driver.findElement(By.xpath(\"//span[text() = '2.00 BYN']\"));\r\n        WebElement buttonDepositAmount = driver.findElement(By.xpath(BUTTON_DEPOSIT_XPATH));\r\n        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));\r\n        wait.until(ExpectedConditions.visibilityOf(buttonDepositAmount));\r\n\r\n        assertAll(\r\n                () -> assertEquals(\"2.00 BYN\", depositAmount.getText()),\r\n                () -> assertEquals(\"Оплатить 2.00 BYN\", buttonDepositAmount.getText()));\r\n    }\r\n\r\n    @Test\r\n    @DisplayName(\"Проверить корректность отображения номера телефона\")\r\n    public void checkPhoneNumberCorrect() {\r\n\r\n        switchToPayment();\r\n        WebElement paymentInfo = driver.findElement(By.xpath(\"//div[@class='pay-description__text']/span\"));\r\n        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));\r\n        wait.until(ExpectedConditions.visibilityOf(paymentInfo));\r\n        String expected = \"Оплата: Услуги связи Номер:375297777777\";\r\n        assertEquals(expected, paymentInfo.getText());\r\n    }\r\n\r\n    @Test\r\n    @DisplayName(\"Проверить надписи в незаполненных полях для ввода реквизитов карты\")\r\n    public void checkTextIBlankCard() {\r\n\r\n        switchToPayment();\r\n        WebElement cardNumberField = driver.findElement(By.xpath(\"//label[text()='Номер карты']\"));\r\n        WebElement durationPeriodField = driver.findElement(By.xpath(\"//label[text()='Срок действия']\"));\r\n        WebElement holderNameField = driver.findElement(By.xpath(\"//label[text()='Имя держателя (как на карте)']\"));\r\n        WebElement CVCField = driver.findElement(By.xpath(\"//label[text()='CVC']\"));\r\n        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));\r\n        wait.until(ExpectedConditions.visibilityOf(cardNumberField));\r\n\r\n        String expectedCardNumberField = \"Номер карты\";\r\n        String expectedDurationPeriodField = \"Срок действия\";\r\n        String expectedHolderNameField = \"Имя держателя (как на карте)\";\r\n        String expectedCVCField = \"CVC\";\r\n\r\n        assertAll(\r\n                () -> assertEquals(expectedCardNumberField, cardNumberField.getText()),\r\n                () -> assertEquals(expectedDurationPeriodField, durationPeriodField.getText()),\r\n                () -> assertEquals(expectedHolderNameField, holderNameField.getText()),\r\n                () -> assertEquals(expectedCVCField, CVCField.getText()));\r\n    }\r\n\r\n    @Test\r\n    @DisplayName(\"Проверить наличие иконок платёжных систем\")\r\n    public void checkPaymentSystemIcon() {\r\n\r\n        switchToPayment();\r\n        WebElement header = driver.findElement(By.xpath(\"//div[@class='header__container']\"));\r\n        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));\r\n        wait.until(ExpectedConditions.visibilityOf(header));\r\n\r\n        List<WebElement> logoElements = driver.findElements(By.xpath(\"//div[@class='icons-container ng-tns-c46-1']\"));\r\n        for (WebElement logo : logoElements) {\r\n            assertTrue(logo.isDisplayed());\r\n        }\r\n    }\r\n    }\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/TestTaskl16p2.java b/src/test/TestTaskl16p2.java
+--- a/src/test/TestTaskl16p2.java	
++++ b/src/test/TestTaskl16p2.java	
+@@ -11,8 +11,9 @@
+ import java.util.List;
+ 
+ import static org.junit.jupiter.api.Assertions.assertAll;
+-import static org.testng.Assert.assertEquals;
+-import static org.testng.AssertJUnit.assertTrue;
++import static org.junit.jupiter.api.Assertions.assertEquals;
++import static org.junit.jupiter.api.Assertions.assertTrue;
++
+ 
+ public class TestTaskl16p2 extends BaseTestTaskl16 {
+ 
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>org.example</groupId>\r\n    <artifactId>AQA-Engineer-Course</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <properties>\r\n        <maven.compiler.source>22</maven.compiler.source>\r\n        <maven.compiler.target>22</maven.compiler.target>\r\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n    </properties>\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>org.seleniumhq.selenium</groupId>\r\n            <artifactId>selenium-java</artifactId>\r\n            <version>4.21.0</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.testng</groupId>\r\n            <artifactId>testng</artifactId>\r\n            <version>7.4.0</version>\r\n            <scope>test</scope>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.junit.jupiter</groupId>\r\n            <artifactId>junit-jupiter</artifactId>\r\n            <version>RELEASE</version>\r\n            <scope>compile</scope>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.testng</groupId>\r\n            <artifactId>testng</artifactId>\r\n            <version>7.4.0</version>\r\n            <scope>compile</scope>\r\n        </dependency>\r\n    </dependencies>\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	
++++ b/pom.xml	
+@@ -20,23 +20,40 @@
+             <version>4.21.0</version>
+         </dependency>
+         <dependency>
+-            <groupId>org.testng</groupId>
+-            <artifactId>testng</artifactId>
+-            <version>7.4.0</version>
+-            <scope>test</scope>
+-        </dependency>
+-        <dependency>
+             <groupId>org.junit.jupiter</groupId>
+             <artifactId>junit-jupiter</artifactId>
+             <version>RELEASE</version>
+             <scope>compile</scope>
+         </dependency>
+         <dependency>
+-            <groupId>org.testng</groupId>
+-            <artifactId>testng</artifactId>
+-            <version>7.4.0</version>
++            <groupId>org.seleniumhq.selenium</groupId>
++            <artifactId>selenium-chrome-driver</artifactId>
++            <version>4.12.1</version>
++            <scope>test</scope>
++        </dependency>
++        <dependency>
++        <groupId>io.qameta.allure</groupId>
++        <artifactId>allure-junit5</artifactId>
++        <version>2.27.0</version>
++    </dependency>
++        <dependency>
++            <groupId>org.seleniumhq.selenium</groupId>
++            <artifactId>selenium-chrome-driver</artifactId>
++            <version>4.22.0</version>
+             <scope>compile</scope>
+         </dependency>
+     </dependencies>
++    <build>
++        <plugins>
++            <plugin>
++                <groupId>io.qameta.allure</groupId>
++                <artifactId>allure-maven</artifactId>
++                <version>2.10.0</version>
++                <configuration>
++                    <reportVersion>2.27.0</reportVersion>
++                </configuration>
++            </plugin>
++        </plugins>
++    </build>
+ 
+ </project>
+\ No newline at end of file
+Index: src/test/TestTaskl16p1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package test;\r\n\r\nimport org.junit.jupiter.api.DisplayName;\r\nimport org.junit.jupiter.api.Test;\r\nimport org.openqa.selenium.By;\r\nimport org.openqa.selenium.WebElement;\r\n\r\nimport java.util.List;\r\n\r\nimport static org.junit.jupiter.api.Assertions.assertAll;\r\nimport static org.testng.Assert.assertEquals;\r\n\r\npublic class TestTaskl16p1 extends BaseTestTaskl16 {\r\n\r\n    private List<WebElement> openDropdownList(){\r\n\r\n        WebElement dropDownButton = driver.findElement(By.xpath(DROPDOWN_BUTTON));\r\n        dropDownButton.click();\r\n\r\n        return driver.findElements(By.xpath(LIST_TO_SELECT));\r\n    }\r\n\r\n    @Test\r\n    @DisplayName(\"Проверить надписи в незаполненных полях каждого варианта оплаты услуг: услуги связи\")\r\n    public void checkTextCommunicationServices(){\r\n\r\n        WebElement phoneHolder = driver.findElement(By.xpath(\"//input[@placeholder='Номер телефона']\"));\r\n        WebElement sumHolder = driver.findElement(By.xpath(\"input[@placeholder='Сумма']\"));\r\n        WebElement emailHolder = driver.findElement(By.xpath(\"//input[@placeholder='E-mail для отправки чека']\"));\r\n\r\n        assertAll(\r\n                () -> assertEquals(EXPECTED_PHONE_NUMBER, phoneHolder.getAttribute(\"placeholder\")),\r\n                () -> assertEquals(EXPECTED_SUM, sumHolder.getAttribute(\"placeholder\")),\r\n                () -> assertEquals(EXPECTED_EMAIL_PAYCHECK, emailHolder.getAttribute(\"placeholder\"))\r\n        );\r\n    }\r\n\r\n    @Test\r\n    @DisplayName(\"Проверить надписи в незаполненных полях каждого варианта оплаты услуг: домашний интернет\")\r\n    public void checkTextHomeInternet(){\r\n\r\n        List<WebElement> listItems = openDropdownList();\r\n        WebElement homeInternet = listItems.get(1);\r\n        homeInternet.click();\r\n\r\n        WebElement userNumberHolder = driver.findElement(By.xpath(\"//input[@placeholder='Номер абонента']\"));\r\n        WebElement sumHolder = driver.findElement(By.xpath(\"//input[@placeholder='Сумма']\"));\r\n        WebElement emailHolder = driver.findElement(By.xpath(\"//input[@placeholder='E-mail для отправки чека']\"));\r\n\r\n        assertAll(\r\n                () -> assertEquals(EXPECTED_USER_NUMBER, userNumberHolder.getAttribute(\"placeholder\")),\r\n                () -> assertEquals(EXPECTED_SUM, sumHolder.getAttribute(\"placeholder\")),\r\n                () -> assertEquals(EXPECTED_EMAIL_PAYCHECK, emailHolder.getAttribute(\"placeholder\"))\r\n        );\r\n    }\r\n\r\n    @Test\r\n    @DisplayName(\"Проверить надписи в незаполненных полях : рассрочка\")\r\n    public void checkTextInstallmentPlan(){\r\n\r\n        List<WebElement> listItems = openDropdownList();\r\n        WebElement installmentPayment = listItems.get(2);\r\n        installmentPayment.click();\r\n\r\n        WebElement accountNumberHolder = driver.findElement(By.xpath(\"//input[@placeholder='Номер счета на 44']\"));\r\n        WebElement sumHolder = driver.findElement(By.xpath(\"//input[@placeholder='Сумма']\"));\r\n        WebElement emailHolder = driver.findElement(By.xpath(\"//input[@placeholder='E-mail для отправки чека']\"));\r\n\r\n        assertAll(\r\n                () -> assertEquals(EXPECTED_ACCOUNT_NUMBER, accountNumberHolder.getAttribute(\"placeholder\")),\r\n                () -> assertEquals(EXPECTED_SUM, sumHolder.getAttribute(\"placeholder\")),\r\n                () -> assertEquals(EXPECTED_EMAIL_PAYCHECK, emailHolder.getAttribute(\"placeholder\"))\r\n        );\r\n    }\r\n\r\n    @Test\r\n    @DisplayName(\"Проверить надписи в незаполненных полях : задолженность\")\r\n    public void checkTextDebt(){\r\n\r\n        List<WebElement> listItems = openDropdownList();\r\n        WebElement dept = listItems.get(3);\r\n        dept.click();\r\n\r\n        WebElement debtAccountHolder = driver.findElement(By.xpath(\"//input[@placeholder='Номер счета на 2073']\"));\r\n        WebElement sumHolder = driver.findElement(By.xpath(\"//input[@placeholder='Сумма']\"));\r\n        WebElement emailHolder = driver.findElement(By.xpath(\"//input[@placeholder='E-mail для отправки чека']\"));\r\n\r\n        assertAll(\r\n                () -> assertEquals(EXPECTED_DEBT_NUMBER, debtAccountHolder.getAttribute(\"placeholder\")),\r\n                () -> assertEquals(EXPECTED_SUM, sumHolder.getAttribute(\"placeholder\")),\r\n                () -> assertEquals(EXPECTED_EMAIL_PAYCHECK, emailHolder.getAttribute(\"placeholder\"))\r\n        );\r\n    }\r\n\r\n\r\n\r\n    }\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/TestTaskl16p1.java b/src/test/TestTaskl16p1.java
+--- a/src/test/TestTaskl16p1.java	
++++ b/src/test/TestTaskl16p1.java	
+@@ -8,7 +8,7 @@
+ import java.util.List;
+ 
+ import static org.junit.jupiter.api.Assertions.assertAll;
+-import static org.testng.Assert.assertEquals;
++import static org.junit.jupiter.api.Assertions.assertEquals;
+ 
+ public class TestTaskl16p1 extends BaseTestTaskl16 {
+ 
+Index: src/test/TestTaskl15.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/TestTaskl15.java b/src/test/TestTaskl15.java
+deleted file mode 100644
+--- a/src/test/TestTaskl15.java	
++++ /dev/null	
+@@ -1,56 +0,0 @@
+-package test;
+-
+-import dev.failsafe.internal.util.Assert;
+-import org.junit.jupiter.api.Test;
+-import org.openqa.selenium.By;
+-import org.openqa.selenium.WebDriver;
+-import org.openqa.selenium.WebElement;
+-import org.openqa.selenium.chrome.ChromeDriver;
+-import java.util.List;
+-
+-import static java.awt.SystemColor.text;
+-import static org.junit.jupiter.api.Assertions.assertEquals;
+-
+-public class TestTaskl15 {
+-
+-    @Test
+-    public void main() {
+-
+-        WebDriver driver = new ChromeDriver();
+-        driver.get("http://mts.by");
+-
+-
+-        WebElement cookieClick = driver.findElement(By.xpath("//button[@class = 'btn btn_black cookie__ok']"));
+-        cookieClick.click();
+-
+-        //1. Проверить название указанного блока
+-        WebElement blockName = driver.findElement(By.xpath("//section[@class = 'pay']//h2"));
+-        assertEquals("Онлайн пополнение" + "\n" + "без комиссии", blockName.getText());
+-
+-        //2. Проверить наличие логотипов платёжных систем
+-        List<WebElement> payPartners = driver.findElements(By.xpath("//div[@class='pay__partners']"));
+-        for(WebElement logo : payPartners) {
+-            Assert.isTrue(
+-                    (logo.getSize().width > 0 && logo.isDisplayed())
+-                    , logo.getAttribute("alt") + " не отображается на странице"
+-            );
+-        }
+-        //3. Проверить работу ссылки «Подробнее о сервисе»
+-        WebElement clickServiceInfo =  driver.findElement((By.linkText("Подробнее о сервисе")));
+-        clickServiceInfo.click();
+-
+-        //Заполнить поля и проверить работу кнопки «Продолжить» (проверяем только вариант «Услуги связи», номер для теста 297777777)
+-        driver.navigate().back();
+-        WebElement phoneNumberField = driver.findElement(By.xpath("//input[@class = 'phone']"));
+-        phoneNumberField.sendKeys("297777777");
+-
+-        WebElement continueButton = driver.findElement(By.xpath("//button[@class = 'button button__default ']"));
+-        continueButton.click();
+-
+-        driver.quit();
+-    }
+-
+-    }
+-
+-
+-
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"openjdk-22\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	
++++ b/.idea/misc.xml	
+@@ -8,7 +8,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file

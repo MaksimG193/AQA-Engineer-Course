@@ -1,0 +1,25 @@
+Index: src/test/BaseTestTaskl16.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package test;\r\n\r\nimport org.junit.jupiter.api.AfterEach;\r\nimport org.junit.jupiter.api.BeforeEach;\r\nimport org.openqa.selenium.By;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.openqa.selenium.WebElement;\r\nimport org.openqa.selenium.chrome.ChromeDriver;\r\n\r\nabstract public class BaseTestTaskl16 {\r\n\r\n     protected WebDriver driver;\r\n     protected static final String BASE_URL = \"https://www.mts.by\";\r\n     protected static final String PHONE_NUMBER_FIELD = \"connection-phone\";\r\n     protected static final String SUM_NUMBER_FIELD = \"connection-sum\";\r\n     protected static final String DROPDOWN_BUTTON = \"//button[contains(@class, 'select__header')]\";\r\n     protected static final String LIST_TO_SELECT = \"//li[contains(@class, 'select__item')]\";\r\n     protected static final String PHONE_NUMBER = \"297777777\";\r\n     protected static final String IFRAME_PAYMENT = \"//iframe[@class='bepaid-iframe']\";\r\n     protected static final String BUTTON_DEPOSIT_XPATH = \"//button[@type='submit' and @class='colored disabled' and (contains(text(), 'Оплатить') and contains(text(), 'BYN'))]\";\r\n     protected static final String EXPECTED_PHONE_NUMBER = \"Номер телефона\";\r\n     protected static final String EXPECTED_SUM = \"Сумма\";\r\n     protected static final String EXPECTED_EMAIL_PAYCHECK = \"E-mail для отправки чека\";\r\n     protected static final String EXPECTED_USER_NUMBER = \"Номер абонента\";\r\n     protected static final String EXPECTED_ACCOUNT_NUMBER = \"Номер счета на 44\";\r\n     protected static final String EXPECTED_DEBT_NUMBER = \"Номер счета на 2073\";\r\n\r\n     @BeforeEach\r\n     protected void setDriver() {\r\n        driver = new ChromeDriver();\r\n        driver.manage().window().maximize();\r\n\r\n        openMainPage();\r\n    }\r\n\r\n     protected void openMainPage() {\r\n        driver.get(BASE_URL);\r\n        WebElement cookieAgreeButton = driver.findElement(By.id(\"cookie-agree\"));\r\n        cookieAgreeButton.click();\r\n    }\r\n\r\n     @AfterEach\r\n     protected void quit() {\r\n        driver.quit();\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/BaseTestTaskl16.java b/src/test/BaseTestTaskl16.java
+--- a/src/test/BaseTestTaskl16.java	
++++ b/src/test/BaseTestTaskl16.java	
+@@ -1,12 +1,13 @@
+ package test;
+-
+ import org.junit.jupiter.api.AfterEach;
+ import org.junit.jupiter.api.BeforeEach;
++
+ import org.openqa.selenium.By;
+ import org.openqa.selenium.WebDriver;
+ import org.openqa.selenium.WebElement;
+ import org.openqa.selenium.chrome.ChromeDriver;
+ 
++
+ abstract public class BaseTestTaskl16 {
+ 
+      protected WebDriver driver;

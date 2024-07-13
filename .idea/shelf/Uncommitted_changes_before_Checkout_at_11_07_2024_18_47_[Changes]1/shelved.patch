@@ -1,0 +1,31 @@
+Index: src/PageObject/Elements.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/PageObject/Elements.java b/src/PageObject/Elements.java
+new file mode 100644
+--- /dev/null	
++++ b/src/PageObject/Elements.java	
+@@ -0,0 +1,21 @@
++package PageObject;
++
++import org.openqa.selenium.WebDriver;
++
++public class Elements {
++    protected WebDriver driver;
++    protected static final String BASE_URL = "https://www.mts.by";
++    protected static final String PHONE_NUMBER_FIELD = "connection-phone";
++    protected static final String SUM_NUMBER_FIELD = "connection-sum";
++    protected static final String DROPDOWN_BUTTON = "//button[contains(@class, 'select__header')]";
++    protected static final String LIST_TO_SELECT = "//li[contains(@class, 'select__item')]";
++    protected static final String PHONE_NUMBER = "297777777";
++    protected static final String IFRAME_PAYMENT = "//iframe[@class='bepaid-iframe']";
++    protected static final String BUTTON_DEPOSIT_XPATH = "//button[@type='submit' and @class='colored disabled' and (contains(text(), 'Оплатить') and contains(text(), 'BYN'))]";
++    protected static final String EXPECTED_PHONE_NUMBER = "Номер телефона";
++    protected static final String EXPECTED_SUM = "Сумма";
++    protected static final String EXPECTED_EMAIL_PAYCHECK = "E-mail для отправки чека";
++    protected static final String EXPECTED_USER_NUMBER = "Номер абонента";
++    protected static final String EXPECTED_ACCOUNT_NUMBER = "Номер счета на 44";
++    protected static final String EXPECTED_DEBT_NUMBER = "Номер счета на 2073";
++}
