@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="io.holixon.axon.testing.assert" type="repository">
+    <properties maven-id="io.holixon.axon.testing:axon-testing-assert:4.9.0.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/holixon/axon/testing/axon-testing-assert/4.9.0.0/axon-testing-assert-4.9.0.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/dom4j/dom4j/2.1.4/dom4j-2.1.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/xmlunit/xmlunit-assertj3/2.9.1/xmlunit-assertj3-2.9.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/axonframework/axon-messaging/4.9.0/axon-messaging-4.9.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-reflect/1.9.20/kotlin-reflect-1.9.20.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.9.20/kotlin-stdlib-1.9.20.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/13.0/annotations-13.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.20/kotlin-stdlib-common-1.9.20.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
