@@ -1,9 +1,0 @@
-public static void main(int len, int initialValue) {
-        int[] arr = new int[len];
-        for (int i = 0; i < len; i++) {
-            arr[i] = initialValue;
-        }
-    }
-
-public void main() {
-}
